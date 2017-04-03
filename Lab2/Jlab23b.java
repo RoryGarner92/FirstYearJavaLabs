@@ -1,10 +1,10 @@
 class Jlab2b3
 
-// Student Name : 		Daniel Hayden
-// Student Id Number : 	C00137009
-// Date :				03/10/14
-// Purpose : 		3.	Write a program which asks the user to enter 3 different numbers. The program then tells the user which number was the lowest number entered.
-////////////////
+//Student Name : 		Rory Garner
+//Student Id Number : 	C00193506
+//Date :				Year 1 2014
+//Purpose : 			
+
 
  
 {

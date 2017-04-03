@@ -1,33 +1,29 @@
 class Jlab21
 
-// Student Name : 		Daniel Hayden
-// Student Id Number : 	C00137009
-// Date :				19/09/14
-// Purpose : 			Write a program in which the user enters an integer value. Depending on the input the program will output whether the number was 
-//                      greater than zero, less than zero or equal to zero.
+//Student Name : 		Rory Garner
+//Student Id num : 		C00193506
+//Date :				Year 1 2014
+//Purpose : 			
 
- 
 {
     public static void main(String[] args)
 	{
-
-	    int number; 
+	    int num; 
 					    		
-		System.out.print("Enter the first number ->  "); 
-		number = EasyIn.getInt(); 
+		System.out.print("Enter the first num ->  "); 
+		num = EasyIn.getInt(); 
 		
-		if (number > 0)
-		{
-			System.out.println( number + " Is greater then 0."); 
-		}
-		else if (number < 0)
-		{
-			System.out.println( number + " Is less then 0."); 
-		}
+		if (num > 0)
+			{
+				System.out.println( num + " Is greater then 0."); 
+			}
+		else if (num < 0)
+			{
+				System.out.println( num + " Is less then 0."); 
+			}
 		else
-		{
-			System.out.println( number + " Is equal to 0."); 
-		}		    
-
+			{
+				System.out.println( num + " Is equal to 0."); 
+			}		    
 	}
 }

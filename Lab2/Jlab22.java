@@ -1,10 +1,9 @@
 class Jlab22
 
-// Student Name : 		Daniel Hayden
-// Student Id Number : 	C00137009
-// Date :				19/09/14
-// Purpose : 			Write a program where the user enters 3 exam marks. Programming, Maths and Hardware. The program 
-//                      will then calculate their average mark and indicate whether the average mark is a : Distinction, Merit, Merit2, Pass.
+//Student Name : 		Rory Garner
+//Student Id Number : 	C00193506
+//Date :				Year 1 2014
+//Purpose : 			
 
  
 {

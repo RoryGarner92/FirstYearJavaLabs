@@ -1,16 +1,13 @@
 class Jlab25
 
-// Student Name : 		Daniel Hayden
-// Student Id Number : 	C00137009
-// Date :				19/09/14
-// Purpose : 			Write a program which ask the user for 2 numbers, it then indicates whether the first number is The first number is exactly divisible by both numbers..
-////// start on 25 part 2
-
+//Student Name : 		Rory Garner
+//Student Id Number : 	C00193506
+//Date :				Year 1 2014
+//Purpose : 			
  
 {
     public static void main(String[] args)
 	{
-
 	    int num1;
 	    int num2;
 	    int num3;
@@ -23,17 +20,14 @@ class Jlab25
 
 		System.out.print("Enter number Three ->  "); 
 		num3 = EasyIn.getInt(); 
-				
-				
+					
 		if ( num1 % num2 == 0 && num1 % num3 == 0 )
-		{
-			System.out.println("Number One is exactly divisible by number Two and Three"); 
-		}
+			{
+				System.out.println("Number One is divisible by number Two and Three"); 
+			}
 		else
-		{
-			System.out.println("Number One is NOT exactly divisible by number Two and Three");
-		}
-				
-		
+			{
+				System.out.println("Number One is NOT divisible by number Two and Three");
+			}	
 	}
 }

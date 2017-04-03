@@ -1,9 +1,9 @@
 class Jlab23
 
-// Student Name : 		Daniel Hayden
-// Student Id Number : 	C00137009
-// Date :				19/09/14
-// Purpose : 			Write a program which determines whether a number is odd or even
+//Student Name : 		Rory Garner
+//Student Id Number : 	C00193506
+//Date :				Year 1 2014
+//Purpose : 			
 
  
 {

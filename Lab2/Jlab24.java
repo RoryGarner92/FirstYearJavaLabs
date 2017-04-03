@@ -1,9 +1,9 @@
 class Jlab24
 
-// Student Name : 		Daniel Hayden
-// Student Id Number : 	C00137009
-// Date :				19/09/14
-// Purpose : 			Write a program which ask the user for 2 numbers, it then indicates whether the first number is exactly divisible by the second number.
+//Student Name : 		Rory Garner
+//Student Id Number : 	C00193506
+//Date :				Year 1 2014
+//Purpose : 			
 
  
 {
