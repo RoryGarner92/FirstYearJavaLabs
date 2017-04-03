@@ -5,11 +5,9 @@ class Jlab24
 //Date :				Year 1 2014
 //Purpose : 			
 
- 
 {
     public static void main(String[] args)
 	{
-
 	    int num1;
 	    int num2;
 					    		
@@ -18,17 +16,14 @@ class Jlab24
 		
 		System.out.print("Enter the second number number ->  "); 
 		num2 = EasyIn.getInt(); 
-		
 				
 		if ( num1 % num2 == 0 )
-		{
-			System.out.println("Yes"); 
-		}
+			{
+				System.out.println("Yes"); 
+			}
 		else
-		{
-			System.out.println("No");
-		}
-				
-		
+			{
+				System.out.println("No");
+			}
 	}
 }

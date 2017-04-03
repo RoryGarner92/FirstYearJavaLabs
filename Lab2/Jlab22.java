@@ -5,8 +5,7 @@ class Jlab22
 //Date :				Year 1 2014
 //Purpose : 			
 
- 
-{
+ {
     public static void main(String[] args)
 	{
 
@@ -28,32 +27,30 @@ class Jlab22
 		
 		
 		if ( averageMark >= 0 && averageMark <= 39 )
-		{
-			System.out.println("Sorry, You failed !"); 
-		}
+			{
+				System.out.println("You failed !"); 
+			}
 		else if (averageMark >= 40 && averageMark <= 53)
-		{
-			System.out.println("Well Done, you got a pass!"); 
-		}
+			{
+				System.out.println("You got a pass!"); 
+			}
 		else if (averageMark >= 54 && averageMark <= 62)
-		{
-			System.out.println("Well Done, you got a merit 2!"); 
-		}		    
+			{
+				System.out.println("You got a  merit 2!"); 
+			}		    
 		else if (averageMark >= 63 && averageMark <= 69)
-		{
-			System.out.println("Well Done, you got a merit 1!"); 
-		}	
+			{
+				System.out.println("You got a  merit 1!"); 
+			}	
 		else if (averageMark >= 70 && averageMark <= 100)
-		{
-			System.out.println("Well Done, you got a distinction :D !!!"); 
-		}
+			{
+				System.out.println("You got a  distinction :D !!!"); 
+			}
 		else
-		{
-			System.out.println("Error: There was an error.");
-		}
+			{
+				System.out.println("Error: 1xx,2xx,3xx,4xx,5xx.");
+			}
 		
 		System.out.println("Your average mark is ->  " + averageMark); 
-		
-		
 	}
 }

@@ -11,16 +11,12 @@ class Jlab2b1
 
 	    double oldPremium;
 	    double numOfClaims;
-	    
 	    double increase;
 	    double basicPremium;
-	    
 	    double discount;
 	    double newPremium;
-	    
 	    double extraCharge;
-	   
-	    					    		
+	   			    		
 		System.out.print("Enter last years Premium ->  "); 
 		oldPremium = EasyIn.getDouble(); 
 		
@@ -30,31 +26,23 @@ class Jlab2b1
 		////Calc
 		increase = (oldPremium / 100) * 5;
 		basicPremium = oldPremium + increase;
-				
-		
 		if (numOfClaims == 0)
-		{
-			
-			discount = (increase / 100) * 40;				
-			newPremium = basicPremium - discount;
-								
-			System.out.println("  New Basic Premium  " + basicPremium); 
-			System.out.println("  Minus Discount ->  " + discount);
-			System.out.println("  New Premium ->  " + newPremium); 	
-		}	
+			{
+				discount = (increase / 100) * 40;				
+				newPremium = basicPremium - discount;
+									
+				System.out.println("  New Basic Premium  " + basicPremium); 
+				System.out.println("  Minus Discount ->  " + discount);
+				System.out.println("  New Premium ->  " + newPremium); 	
+			}	
 		
 		else if (numOfClaims > 0)
-		{
-				
-		   extraCharge = numOfClaims * 20;
-		   extraCharge = (basicPremium / 100) * extraCharge;
-		   newPremium = extraCharge + basicPremium;
-		   
-		   System.out.println("  New Premium ->  " + newPremium); 
-		   
-		}		
-
-			
-		
+			{	
+			   extraCharge = numOfClaims * 20;
+			   extraCharge = (basicPremium / 100) * extraCharge;
+			   newPremium = extraCharge + basicPremium;
+			   
+			   System.out.println("  New Premium ->  " + newPremium);  
+			}		
 	}
 }
